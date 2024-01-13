@@ -5,7 +5,7 @@ from io import BytesIO
 
 def play_text_to_speech(text, path, format = "wav", id = 226, length = 1.3):
     # 构建API请求URL
-    api_url = f"http://123.207.0.178:23456/voice/vits?text={text}&id={id}&format={format}&length={length}"
+    api_url = f"http://192.168.31.42:23456/voice/vits?text={text}&id={id}&format={format}&length={length}"
 
     try:
         # 发送HTTP GET请求获取音频文件
