@@ -5,8 +5,8 @@ import urllib
 import base64
 import os
 
-API_KEY = "K6lu1T76acCy6nFEunpmvvGhGq0tIIA6"
-SECRET_KEY = "3S04HYsmNSxrt8vDeKR3pkPdjOTE4XRi"
+API_KEY = "***"
+SECRET_KEY = "***"
 
 def get_audio_file_size(file_path = './audio.wav'):
     try:
